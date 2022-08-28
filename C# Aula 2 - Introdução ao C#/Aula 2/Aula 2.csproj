@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{723D1FB6-A583-457F-B3FE-6D82AD1C3E7E}</ProjectGuid>
+    <ProjectGuid>{8F016813-3F6F-4B79-BB40-A49922B5E019}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Aula_3</RootNamespace>
-    <AssemblyName>Aula 3</AssemblyName>
+    <RootNamespace>Aula_2</RootNamespace>
+    <AssemblyName>Aula 2</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,8 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Cliente.cs" />
-    <Compile Include="Conta.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
