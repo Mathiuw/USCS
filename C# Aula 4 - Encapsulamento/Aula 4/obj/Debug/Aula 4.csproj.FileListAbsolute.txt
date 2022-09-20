@@ -1,0 +1,8 @@
+D:\mateu\Documents\USCS\C# Aula 4 - Encapsulamento\Aula 4\bin\Debug\Aula 4.exe.config
+D:\mateu\Documents\USCS\C# Aula 4 - Encapsulamento\Aula 4\bin\Debug\Aula 4.exe
+D:\mateu\Documents\USCS\C# Aula 4 - Encapsulamento\Aula 4\bin\Debug\Aula 4.pdb
+D:\mateu\Documents\USCS\C# Aula 4 - Encapsulamento\Aula 4\obj\Debug\Aula 4.csproj.AssemblyReference.cache
+D:\mateu\Documents\USCS\C# Aula 4 - Encapsulamento\Aula 4\obj\Debug\Aula 4.csproj.SuggestedBindingRedirects.cache
+D:\mateu\Documents\USCS\C# Aula 4 - Encapsulamento\Aula 4\obj\Debug\Aula 4.csproj.CoreCompileInputs.cache
+D:\mateu\Documents\USCS\C# Aula 4 - Encapsulamento\Aula 4\obj\Debug\Aula 4.exe
+D:\mateu\Documents\USCS\C# Aula 4 - Encapsulamento\Aula 4\obj\Debug\Aula 4.pdb
