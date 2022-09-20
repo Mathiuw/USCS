@@ -1,7 +1,0 @@
-C:\Users\mateus.martins_uscso\Desktop\Aula 5 - Construtor\bin\Debug\Aula 5 - Construtor.exe.config
-C:\Users\mateus.martins_uscso\Desktop\Aula 5 - Construtor\bin\Debug\Aula 5 - Construtor.exe
-C:\Users\mateus.martins_uscso\Desktop\Aula 5 - Construtor\bin\Debug\Aula 5 - Construtor.pdb
-C:\Users\mateus.martins_uscso\Desktop\Aula 5 - Construtor\obj\Debug\Aula 5 - Construtor.csprojAssemblyReference.cache
-C:\Users\mateus.martins_uscso\Desktop\Aula 5 - Construtor\obj\Debug\Aula 5 - Construtor.csproj.CoreCompileInputs.cache
-C:\Users\mateus.martins_uscso\Desktop\Aula 5 - Construtor\obj\Debug\Aula 5 - Construtor.exe
-C:\Users\mateus.martins_uscso\Desktop\Aula 5 - Construtor\obj\Debug\Aula 5 - Construtor.pdb
