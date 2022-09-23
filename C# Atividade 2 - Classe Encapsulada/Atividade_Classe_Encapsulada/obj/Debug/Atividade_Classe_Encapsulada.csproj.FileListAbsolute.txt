@@ -1,0 +1,8 @@
+D:\mateu\Documents\USCS\C# Atividade 2 - Classe Encapsulada\Atividade_Classe_Encapsulada\bin\Debug\Atividade_Classe_Encapsulada.exe.config
+D:\mateu\Documents\USCS\C# Atividade 2 - Classe Encapsulada\Atividade_Classe_Encapsulada\bin\Debug\Atividade_Classe_Encapsulada.exe
+D:\mateu\Documents\USCS\C# Atividade 2 - Classe Encapsulada\Atividade_Classe_Encapsulada\bin\Debug\Atividade_Classe_Encapsulada.pdb
+D:\mateu\Documents\USCS\C# Atividade 2 - Classe Encapsulada\Atividade_Classe_Encapsulada\obj\Debug\Atividade_Classe_Encapsulada.csproj.AssemblyReference.cache
+D:\mateu\Documents\USCS\C# Atividade 2 - Classe Encapsulada\Atividade_Classe_Encapsulada\obj\Debug\Atividade_Classe_Encapsulada.csproj.SuggestedBindingRedirects.cache
+D:\mateu\Documents\USCS\C# Atividade 2 - Classe Encapsulada\Atividade_Classe_Encapsulada\obj\Debug\Atividade_Classe_Encapsulada.csproj.CoreCompileInputs.cache
+D:\mateu\Documents\USCS\C# Atividade 2 - Classe Encapsulada\Atividade_Classe_Encapsulada\obj\Debug\Atividade_Classe_Encapsulada.exe
+D:\mateu\Documents\USCS\C# Atividade 2 - Classe Encapsulada\Atividade_Classe_Encapsulada\obj\Debug\Atividade_Classe_Encapsulada.pdb
