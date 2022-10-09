@@ -1,7 +1,0 @@
-C:\Users\mateus.martins_uscso\Desktop\Aula7\bin\Debug\Aula7.exe.config
-C:\Users\mateus.martins_uscso\Desktop\Aula7\bin\Debug\Aula7.exe
-C:\Users\mateus.martins_uscso\Desktop\Aula7\bin\Debug\Aula7.pdb
-C:\Users\mateus.martins_uscso\Desktop\Aula7\obj\Debug\Aula7.csprojAssemblyReference.cache
-C:\Users\mateus.martins_uscso\Desktop\Aula7\obj\Debug\Aula7.csproj.CoreCompileInputs.cache
-C:\Users\mateus.martins_uscso\Desktop\Aula7\obj\Debug\Aula7.exe
-C:\Users\mateus.martins_uscso\Desktop\Aula7\obj\Debug\Aula7.pdb
