@@ -15,7 +15,13 @@
         <link rel = "stylesheet" type = "text/css" href = "css/containers.css">
         <link rel = "stylesheet" type = "text/css" href = "css/modal.css">
       
-        <!-- Java script -->
+        <!-- JavaScript -->
+
+        <script src="JS/node_cliente.js" defer></script>
+        <script src="JS/node_fornecedor.js" defer></script>
+        <script src="JS/fila.js" defer></script>
+        <script src="JS/pilha.js" defer></script>
+        <script src="JS/main.js" defer></script>
         <script src="JS/modal.js" defer></script>
 
         <!-- Nome da pagina -->
@@ -23,7 +29,6 @@
     </head>
     
     <body>
-
         <!-- HEADER -->
         <header>
             <h1>Neo Roman</h1>
@@ -45,7 +50,7 @@
                 <p id="subtitulo">Insira seus dados:</p>
                 <br>
     
-                <form>
+                <form id = "formulario_cliente">
                     <!-- INPUT NOME -->
                     <div>
 
@@ -70,7 +75,7 @@
                         <div>
                             <label>CPF</label>
                         </div>
-                        <input class="input" type="text" name="cpf"id="cpf" placeholder="Digite"required> 
+                        <input class="input" type="cpf" name="cpf"id="cpf" placeholder="Digite"required> 
                     </div>
                     
                     <!-- INPUT E-MAIL -->
@@ -78,7 +83,7 @@
                         <div>
                             <label>E-mail</label>
                         </div>
-                        <input class="input"  type="email", name="email" placeholder="Digite"required>
+                        <input class="input"  type="email" name="email" id="email"placeholder="Digite"required>
                     </div>
                     
                     <!-- INPUT TELEFONE -->
@@ -88,26 +93,22 @@
                         </div>
                         <input class="input" type="text" name="telefone" id="telefone" placeholder="Digite"required> 
                     </div>
-                    
                     <br>
-                    
+                </form>
                     <!-- INPUT BOTÃO DE CADASTRO -->
                     <div>
-                        <button type="submit" class="button">Enviar</button>
+                        <button class="button" id="btn_cliente">Enviar</button>
                     </div>
-                </form>
             </div>
         
-    
 
-            
             <!-- CADASTRO FORNECEDOR -->
             <div class = "sub_container">
                 <h2 id="titulo">Cadastro de Fornecedor</h2>
                 <p id="subtitulo">Insira seus dados:</p>
                 <br>
                 
-                <form>
+                <form id = "formulario_forn">
                     <!-- INPUT NOME FANTASIA -->
                     <div>
                         <div>
@@ -137,7 +138,7 @@
                         <div>
                             <label>E-mail</label>
                         </div>
-                        <input class="input"  type="email", name="email" placeholder="Digite"required>
+                        <input class="input"  type="email" name="email" id="emailforn" placeholder="Digite"required>
                     </div>
                     
                     <!-- INPUT TELEFONE -->
@@ -145,16 +146,14 @@
                         <div>
                             <label>Telefone</label>
                         </div>
-                        <input class="input" type="text" name="telefone" id="telefone" placeholder="Digite"required>
+                        <input class="input" type="text" name="telefone" id="telefoneforn" placeholder="Digite"required>
                     </div>
-                    
                     <br>
-
+                </form>
                     <!-- BOTÃO DE CADASTRO -->
                     <div>
-                        <button type="submit" class="button">Enviar</button>
+                        <button class="button" id="btn_forn">Enviar</button>
                     </div>
-                </form>
             </div>
             
             <div class="container_actions" style="align-self: center;">
@@ -169,9 +168,9 @@
 
                 <div style = "display: flex; justify-content: center;">
 
-                    <button id="open_modal" type="button" style= "margin-right: 2%;width: 50%; background-color: #59814c;" class="button">Imprimir</button>
+                    <button id="open_modal_cliente" type="button" style= "margin-right: 2%;width: 50%; background-color: #59814c;" class="button">Imprimir</button>
                     
-                    <button type="button" class="button" style="width: 50%;background-color: #8f2f2f">REMOVER</button>
+                    <button id="remover_cliente" type="button" class="button" style="width: 50%;background-color: #8f2f2f">REMOVER</button>
 
                 </div>
 
@@ -179,9 +178,9 @@
 
                 <div div style = "display: flex; justify-content: center;">
 
-                    <button id="open_modal" type="button" style= "margin-right: 2%;width: 50%; background-color: #59814c;" class="button">Imprimir</button>
+                    <button id="open_modal_fornecedor" type="button" style= "margin-right: 2%;width: 50%; background-color: #59814c;" class="button">Imprimir</button>
 
-                    <button type="button" class="button" style="width: 50%;background-color: #8f2f2f;">REMOVER</button>
+                    <button id="remover_fornecedor" type="button" class="button" style="width: 50%;background-color: #8f2f2f;">REMOVER</button>
 
                 </div>
             </div>
@@ -195,7 +194,7 @@
                 <!-- Header do modal -->
                 <div class="modal_header">
                     <!-- Texto da header -->
-                    <h1> Print </h1>
+                    <h1 id="print_header">Print</h1>
 
                     <!-- Botão para fechar o modal -->
                     <button id="close_modal" class="button" style="background-color: #8f2f2f;">Fechar</button>
@@ -204,18 +203,9 @@
                 <!-- Corpo do modal -->
                 <div class="modal_body">
                     <p id="print">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae aperiam minima vitae mollitia! 
-                    Quod rerum quia totam maxime similique dolorum reiciendis doloremque iusto explicabo, ipsum laudantium minima, fugiat tenetur minus?
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae aperiam minima vitae mollitia! 
-                    Quod rerum quia totam maxime similique dolorum reiciendis doloremque iusto explicabo, ipsum laudantium minima, fugiat tenetur minus?
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae aperiam minima vitae mollitia! 
-                    Quod rerum quia totam maxime similique dolorum reiciendis doloremque iusto explicabo, ipsum laudantium minima, fugiat tenetur minus?
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae aperiam minima vitae mollitia! 
-                    Quod rerum quia totam maxime similique dolorum reiciendis doloremque iusto explicabo, ipsum laudantium minima, fugiat tenetur minus?
                     </p>
                 </div>
             </div>
-
-
+        </div>
     </body>
 </html>

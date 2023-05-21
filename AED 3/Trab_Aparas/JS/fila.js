@@ -21,8 +21,7 @@ class fila {
   dequeue() {
     let trab;
     if (this.size == 0) {
-      console.log("Fila vazia");
-      return null;
+      return "Fila vazia";
     } else if (this.size == 1) {
       trab = this.head;
       this.head = null;
@@ -38,13 +37,15 @@ class fila {
 
   imprimeFila() {
     let no_trab = this.head;
+    let retorno = "";
     if (this.size == 0) {
-      console.log("Fila vazia");
+      return "Fila vazia";
     } else {
       for(let i = 0; i < this.size; i++) {
-        console.log("Nome: " + no_trab.nome + "\nSobrenome: " + no_trab.sobrenome + "\nEmail: " + no_trab.email + "\nCPF: " + no_trab.cpf + "\nTelefone: " + no_trab.telefone + "\n");
+        retorno += ("Nome: " + no_trab.nome + "<br>Sobrenome: " + no_trab.sobrenome + "<br>E-mail: " + no_trab.email + "<br>CPF: " + no_trab.cpf + "<br>Telefone: " + no_trab.telefone + "<br><br>");
         no_trab = no_trab.next;
       }
+      return retorno;
     }
   }
 }

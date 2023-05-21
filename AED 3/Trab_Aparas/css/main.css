@@ -15,6 +15,7 @@ body{
     background-color: #C3D9E2;
     margin: 0;
     align-items: center;
+    overflow: auto;
 }
 
 h1 {
