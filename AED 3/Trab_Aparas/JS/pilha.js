@@ -41,13 +41,11 @@ class pilha {
     let retorno = "";
     if (this.size == 0) {
      console.log("Pilha vazia");
-     return "Pilha vazia"
-    } 
-    else 
-    {
+     return "Pilha vazia";
+    } else {
       for(let i = 0; i < this.size; i++) {
         retorno += ("CNPJ: " + no_trab.cnpj + "<br>Razão Social: " + no_trab.razao_social + "<br>Nome Fantasia: " + no_trab.nome_fantasia + "<br>E-mail: " + no_trab.email + "<br>Telefone: " + no_trab.telefone + "<br><br>");
-      no_trab = no_trab.next;
+        no_trab = no_trab.next;
       }
       console.log(retorno);
       return retorno;

@@ -9,8 +9,7 @@ function enqueue_fila(){
     let cpf = document.getElementById("cpf").value;
     let email_cliente = document.getElementById("email").value;
     let telefone_cliente = document.getElementById("telefone").value;
-    if (nome_cliente != "" && sobrenome != "" && cpf != "" && email_cliente != "" && telefone_cliente != "")
-    {
+    if (nome_cliente != "" && sobrenome != "" && cpf != "" && email_cliente != "" && telefone_cliente != "") {
       cliente.enqueue(nome_cliente, sobrenome, email_cliente, cpf, telefone_cliente);
       formCliente.reset();
     }
@@ -32,12 +31,12 @@ function push_pilha(){
     let cnpj = document.getElementById("cnpj").value;
     let email_forn = document.getElementById("emailforn").value;
     let telefone_forn = document.getElementById("telefoneforn").value;
-    if (nome_forn != "" && razao != "" && cnpj != "" && email_forn != "" && telefone_forn != "")
-    {
+    if (nome_forn != "" && razao != "" && cnpj != "" && email_forn != "" && telefone_forn != ""){
       fornecedor.push(cnpj, razao, nome_forn, email_forn, telefone_forn);
       formFornecedor.reset();
+    } else {
+        console.log("Form vazio");
     }
-    else console.log("Form vazio");
 }
 
 function pop_pilha(){
@@ -46,7 +45,7 @@ function pop_pilha(){
 }
 
 function print_pilha(){
-  document.querySelector("#print_header").innerHTML = "Fornecedores"
+  document.querySelector("#print_header").innerHTML = "Fornecedores";
   document.querySelector("#print").innerHTML = fornecedor.imprimePilha();
 }
 
