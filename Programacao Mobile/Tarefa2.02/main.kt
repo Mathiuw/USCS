@@ -25,6 +25,7 @@ fun main()
     var y = 8;
 
     x = a % b;
+
     while( x != 0 )
     {
         y += 1;
